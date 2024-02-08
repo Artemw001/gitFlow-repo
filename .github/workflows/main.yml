@@ -8,4 +8,8 @@ jobs:
     steps:
       - name: Print to console
         run: echo Hello github Action
+      - name: Print to new Lines
+        run: |
+          echo First line
+          echo Second line
     
